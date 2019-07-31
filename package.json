@@ -1,0 +1,20 @@
+{
+  "name": "zalozka",
+  "version": "1.0.0",
+  "description": "Online bookmarking service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntJanus/zalozka.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntJanus/zalozka/issues"
+  },
+  "homepage": "https://github.com/AntJanus/zalozka#readme"
+}
