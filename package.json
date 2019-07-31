@@ -1,20 +1,18 @@
 {
-  "name": "zalozka",
+  "name": "api-routes-graphql",
   "version": "1.0.0",
-  "description": "Online bookmarking service",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AntJanus/zalozka.git"
+  "dependencies": {
+    "apollo-server-micro": "2.6.7",
+    "graphql": "14.4.2",
+    "isomorphic-unfetch": "3.0.0",
+    "next": "latest",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AntJanus/zalozka/issues"
-  },
-  "homepage": "https://github.com/AntJanus/zalozka#readme"
+  "license": "ISC"
 }
